@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(251, 249, 236);
+    color: rgb(249, 183, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+    }
+img{
+    max-width: 100%;
+}
+.nav > ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(247, 192, 53);
+}
+
+.nav > ul> li{
+    float: left;
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    }
+.nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+}
+
+.grid-container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(12,1fr);
+
+}
+
+footer{
+    color: white;
+    background-color: rgb(247, 192, 53)
+}
+
+HEADER{
+    font-size: 30px;
+}
+
+.Adventures{
+grid-column: 1/span 12;
+}
+
+.florence{
+    grid-column: 1/span 4; 
+}
+
+.athens{
+    grid-column: 5/span 4;
+}
+.Rome{
+    grid-column: 9/span 4;
+}
+
+.Infos{
+    grid-column: 1/span 12;
+}
+
+.Cities{
+    grid-column: 1/span 4;
+    border-style: solid;
+    border-color: rgb(219, 150, 3);
+    background-color:rgb(240, 205, 156);
+    color: white;
+}
+
+.Groups{
+    grid-column: 5/span 4;
+    color: white;
+    border-style: solid;
+    border-color: rgb(219, 150, 3);
+    background-color: rgb(143, 187, 143);
+}
+
+.ArchiTypes{
+    grid-column: 9/span 4;
+    border-style: solid;
+    color: white;
+    border-color: rgb(219, 150, 3);
+    background-color: rgb(155, 212, 240);
+}
+
+.igrid{
+    padding-top: 20px;
+    height: 600px;
+    width: 400px;
+}
+
+@media only screen and (max-width: 768px){
+.grid-container{
+    display: grid;
+    gap:10px;
+    grid-template-comuns: repeat (9,1fr);
+}
+}
+
+@media only screen and (max-width: 600px){
+
+}
+
+
+/* for the mobile its 600 px

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+            <title> </title> 
+            <script src="script.js"></script>
+       
+    </head>
+    <body>
+        <main>
+            <section>
+                <form name = "quiz">
+                    <fieldset>
+                    <!--label for fieldset-->    <legend>What is your favourite type of architecture?</legend>
+                    <input type="radio" 
+                    name="type" value="modern"
+                    id="modern"> <!--for javaS. ID and FOR must be the same. Name remains the same for the whoile group-->
+                    <label for="modern">Modern<!--text that goes after radio--></label>
+
+                    <input type="radio" 
+                    name="type" value="classic"
+                    id="classic"> <!--for javaS-->
+                    <label for="classic">Classic<!--text that goes after radio--></label>
+
+                    <input type="radio" 
+                    name="type" value="roman"
+                    id="roman"> <!--for javaS-->
+                    <label for="roman">Roman<!--text that goes after radio--></label>
+
+                    <input type="radio" 
+                    name="type" value="greek"
+                    id="greek"> <!--for javaS-->
+                    <label for="greek">Greek<!--text that goes after radio--></label>
+                        <!--question and answer group--></fieldset>
+<fieldset>
+    <legend>What are your favourite cities?</legend>
+    <input type="radio" 
+    name="city" value="rome"
+    id="rome">
+    <label for="rome">Rome</label>
+        
+    <input type="radio" 
+    name="city" value="paris"
+    id="paris"> 
+    <label for="paris">Paris</label>
+        
+    <input type="radio" 
+    name="city" value="london"
+    id="london"> 
+    <label for="london">London</label>
+        
+    <input type="radio" 
+    name="city" value="athens"
+    id="athens"> 
+    <label for="athens">Athens</label>
+                               
+</fieldset>
+<fieldset>
+    <legend>Who is your favourite Architect?</legend>
+    <input type="radio" 
+    name="architect" value="NormanFoster"
+    id="Brunelleschi"> 
+    <label for="Brunelleschi">Brunelleschi</label>
+
+    <input type="radio" 
+    name="architect" value="LeCorbusier"
+    id="LeCorbuseer">
+    <label for="LeCorbusier">LeCorbusier</label>
+
+    <input type="radio" 
+    name="architect" value="Ictinus"
+    id="rock">
+    <label for="rock">Rock</label>
+
+    <input type="radio" 
+    name="architect" value="Vitrivius"
+    id="metal"> 
+    <label for="metal">Metal</label>
+       
+</fieldset>
+<fieldset>
+    <legend>What is your favourite material?</legend>
+    <input type="radio" 
+    name="material" value="concrete"
+    id="concrete"> 
+    <label for="concrete">Concrete</label>
+
+    <input type="radio" 
+    name="material" value="sandstone"
+    id="sandstone"> 
+    <label for="sandstone">Sandstone</label>
+
+    <input type="radio" 
+    name="material" value="brick"
+    id="brick">
+    <label for="brick">Brick</label>
+
+    <input type="radio" 
+    name="material" value="steel"
+    id="steel"> 
+    <label for="steel">Steel</label>
+</fieldset>
+<br><!--block tag command-->
+<button type="button" onclick="checkAnswers()">Submit </button>
+</form>
+</section>
+</main>
+</body>
+</html>
